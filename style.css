@@ -1,0 +1,40 @@
+h1{
+    color: darkgrey;
+    !important
+}
+h1:hover {
+    color:black;
+}
+.gallery-card {
+    font-family: Playfair Display;
+    font-size: 30px;
+    font-weight: 40;
+    line-height: 400px;
+    letter-spacing: 0em;
+    text-align: left;  
+    color:#626262;
+}
+.gallery-text {
+    font-family: Playfair Display;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#grey;
+}
+.gallery-header {
+    font-family: Playfair Display;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#626262;
+}
+/*
+background: #626262 ;
+background: #B4AD9E;
+background: #7D7D7D;
+background: #03A9F4;
+*/

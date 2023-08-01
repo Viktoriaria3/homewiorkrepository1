@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Playfair+Display:ital@0;1&family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Playfair+Display:ital@0;1&family=Ubuntu:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+ </header>
+  <main class="gallery">
+    <h1>Приклади каскадності, наслідування та псевдокласів</h1>
+    <div class="gallery-card">
+      <h2 class="gallery-header">Псевдокласи - це ключові слова, які додаються до CSS селекторів і змінюють їх стан та положення внаслідок дій користувачів. В якості прикладу можна навести текстове посилання, яка змінює свій колір чи розмір при наведенні на нього курсора миші.</h2>
+    <h2 class="gallery-header">2 приклади використання псевдокласів :</h2>
+    <p class="gallery-text">a.menu:hover {
+        color: green
+        }
+    </p>
+        <p class="gallery-text">.menu a:hover {
+            background: #fc0;
+            }
+        </p>
+    </div>
+    <div class="gallery-card">
+        <h2 class="gallery-header">Наслідування в CSS - механізм, за допомогою якого значення властивостей елемента-батька передаються його елементам-нащадкам. Стилі, присвоєні деякого елементу, успадковуються всіма нащадками (вкладеними елементами), якщо вони не перевизначені (перекриті) явно.
+        </h2>
+        <h2 class="gallery-header">2 приклади використання наслідування :</h2>
+        <p class="gallery-text">body{                                                                                           color:#913D88                                                                                                  font-size:16px
+         border:1px solid #333                                                      
+         }
+        </p>
+        <p class="gallery-text">body {
+            color: blue;
+        }
+        </p>
+    </div>
+    <div class="gallery-card">
+        <h2 class="gallery-header">Каскадність CSS - це механізм, завдяки якому до елементу HTML-документа може застосовуватися більш ніж одне правило CSS.При конфлікті кількох стилів спрацьовує правило пріоритетів. Перевага віддається тому стилю, який вважається більш значущим. 
+        </h2>
+        <h2 class="gallery-header">2 приклади використання каскадності</h2>
+        <p class="gallery-text">h1 { 
+            color: red; 
+        }
+        h1 { 
+            color: blue; 
+        }
+        </p>
+        <p class="gallery-text">Тут використається нижній h1
+        </p>
+        <p class="gallery-text"> h3 {                                                                                                              font-size: 20px                                                                        !important ;                                                                                                     }
+        h3 {                                                                                                           font-size: 16px ; 
+         }
+        </p>
+        <p class="gallery-text">Застосується 1 варіант</p>
+     </div>
+</body>
+</html>
